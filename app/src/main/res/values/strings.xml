@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Permisos</string>
+    <string name="tv_title">Gestión permisos</string>
+    <string name="btn_request_permission">Request Permission</string>
+    <string name="btn_check_permission">Check Permission</string>
+    <string name="tvCamera">Status Permission Camera</string>
+    <string name="tvBT">Status Permission BT</string>
+    <string name="tvEws">Status Permission External Storage</string>
+    <string name="tvRS">Status Permission Read Storage</string>
+    <string name="tvInternet">Status Permission Internet</string>
+    <string name="tvDactilar">Status Permission fingerprint</string>
+</resources>

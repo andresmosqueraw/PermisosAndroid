@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/tv_title"
+        android:textSize="32dp"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_dactilar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:text="@string/tvDactilar"
+        android:background="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/tv_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:text="@string/tvCamera"
+        android:background="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/tv_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/tvBT"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:background="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/tv_external_write_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:text="@string/tvEws"
+        android:background="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/tv_real_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:text="@string/tvRS"
+        android:background="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/tv_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:text="@string/tvInternet"
+        android:background="@color/purple_200"/>
+
+    <Button
+        android:id="@+id/btn_check_permission"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/btn_check_permission"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/btn_request_permission"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/btn_request_permission"
+        android:textSize="24dp"/>
+
+
+</LinearLayout>
